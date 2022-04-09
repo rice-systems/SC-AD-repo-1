@@ -1,0 +1,13 @@
+Configuration: block size 4 MB, block # 1450, discard 1, lazy 1, windowSize 64 MB
+Memory consumption 11600 MB
+Runtime: 1193.67 ms
+[  794.147749] ---------------------------------------
+[  794.147750] migration times: 4496
+[  794.147751] fetch/evict [6081740800 , 3347054592]
+[  794.147751] GPU faults/tracker_wait # 0, 11623
+[  794.147751] other tracker: 5823
+[  794.147752] discardlazy/discarded/reverted/zeroed blocks: [2848, 2848, 0, 2228]
+[  794.147752] # of evictions 4444
+[  794.147752] PGQueue used/unused/discarded: 17400 1596 5696
+[  794.147753] Latency (us) lazy/discard/evictdiscard/mig/makeres: 
+[  794.147753] [623, 0, 4663, 1078390, 758761]

@@ -1,0 +1,30 @@
+Chose device: name='NVIDIA GeForce RTX 3080 Ti' index=0
+Running Sort
+Using problem size 640 MB
+Bytes: 10240 MB
+Memory consumption: 10240 MB
+Prefetching style is 0, bytes is 2684354560
+Prefetching style is 0, bytes is 2684354560
+Prefetching style is 0, bytes is 2684354560
+Prefetching style is 0, bytes is 2684354560
+Prefetching style is 0, bytes is 2684354560
+Prefetching style is 0, bytes is 2684354560
+Prefetching style is 0, bytes is 2684354560
+Prefetching style is 0, bytes is 2684354560
+Runtime: 31269.76 ms
+Test Passed
+
+test       atts       units       median       mean       stddev       min       max       
+
+Note: results marked with (*) had missing values such as
+might occur with a mixture of architectural capabilities.
+[163965.517157] ---------------------------------------
+[163965.517158] migration times: 4095794
+[163965.517158] fetch/evict [180816576512 , 183897292800]
+[163965.517159] GPU faults/tracker_wait # 7818650, 312282
+[163965.517159] other tracker: 98569
+[163965.517159] discardlazy/discarded/reverted/zeroed blocks: [0, 38400, 0, 6220]
+[163965.517160] # of evictions 92089
+[163965.517160] PGQueue used/unused/discarded: 542617 87957 4132
+[163965.517160] Latency (us) lazy/discard/evictdiscard/mig/makeres: 
+[163965.517161] [0, 10182, 0, 0, 7095612]

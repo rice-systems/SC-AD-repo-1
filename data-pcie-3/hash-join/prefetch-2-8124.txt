@@ -1,0 +1,26 @@
+INPUT: option = 7	||R|| = 200000000	||S|| = 200000000	SelsMultiplier = 1	RelsMultiplier = 1	joinAlg = HJC	DISCARD = 0	LAZY = 0	Allocation-on-the-side: 8124	
+Creating relation R with 200000000 tuples (762 MB) using unique keys : Reading file unique_200000000.bin Creating relation S with 200000000 tuples (762 MB) using unique keys : Reading file unique_200000000.bin HJC : shareMemory = 30720	#threads = 32
+Size comparison: 762 vs. 784
+bucket size: 4096, buckets_num_max_R 50176, buckets_num_max_S 50176
+opt3
+Memory usage is 10192 MB
+Should we prefetch? 1
+With materialization
+time1 1.385
+Next iteration
+Without materialization
+time 2 1.66955
+We are done. These cudaFree would take a huge amount of time, enjoy
+total 4121.05 ms
+Runtime 3.05 s
+Done with cuda Free
+[ 2617.795280] ---------------------------------------
+[ 2617.795281] migration times: 189569
+[ 2617.795282] fetch/evict [17954242560 , 21152137216]
+[ 2617.795282] GPU faults/tracker_wait # 185335, 23521
+[ 2617.795283] other tracker: 12571
+[ 2617.795283] discardlazy/discarded/reverted/zeroed blocks: [0, 0, 0, 2287]
+[ 2617.795283] # of evictions 10088
+[ 2617.795284] PGQueue used/unused/discarded: 40402 10088 0
+[ 2617.795284] Latency (us) lazy/discard/evictdiscard/mig/makeres: 
+[ 2617.795284] [0, 0, 0, 1808697, 1760727]

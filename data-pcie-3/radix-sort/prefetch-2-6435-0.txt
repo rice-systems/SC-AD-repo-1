@@ -1,0 +1,2 @@
+Chose device: name='NVIDIA GeForce RTX 3080 Ti' index=0
+Running Sort

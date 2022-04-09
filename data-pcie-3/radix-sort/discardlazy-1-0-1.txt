@@ -1,0 +1,30 @@
+Chose device: name='NVIDIA GeForce RTX 3080 Ti' index=0
+Running Sort
+Using problem size 640 MB
+Bytes: 10240 MB
+Memory consumption: 10240 MB
+Prefetching style is 1, bytes is 2684354560
+Prefetching style is 1, bytes is 2684354560
+Prefetching style is 1, bytes is 2684354560
+Prefetching style is 1, bytes is 2684354560
+Prefetching style is 1, bytes is 2684354560
+Prefetching style is 1, bytes is 2684354560
+Prefetching style is 1, bytes is 2684354560
+Prefetching style is 1, bytes is 2684354560
+Runtime: 810.54 ms
+Test Passed
+
+test       atts       units       median       mean       stddev       min       max       
+
+Note: results marked with (*) had missing values such as
+might occur with a mixture of architectural capabilities.
+[  919.282464] Swap cache stats: add 112, delete 50, find 0/0
+[  919.282464] Free swap  = 2096636kB
+[  919.282464] Total swap = 2097148kB
+[  919.282465] 16746647 pages RAM
+[  919.282465] 0 pages HighMem/MovableOnly
+[  919.282465] 295094 pages reserved
+[  919.282465] 0 pages cma reserved
+[  919.282466] 0 pages hwpoisoned
+[ 3124.932730] kauditd_printk_skb: 29 callbacks suppressed
+[ 3124.932732] audit: type=1400 audit(1637128830.303:40): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=5192 comm="cups-browsed" capability=23  capname="sys_nice"

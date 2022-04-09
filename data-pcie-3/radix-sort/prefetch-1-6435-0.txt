@@ -1,0 +1,30 @@
+Chose device: name='NVIDIA GeForce RTX 3080 Ti' index=0
+Running Sort
+Using problem size 640 MB
+Bytes: 10240 MB
+Memory consumption: 10240 MB
+Prefetching style is 0, bytes is 2684354560
+Prefetching style is 0, bytes is 2684354560
+Prefetching style is 0, bytes is 2684354560
+Prefetching style is 0, bytes is 2684354560
+Prefetching style is 0, bytes is 2684354560
+Prefetching style is 0, bytes is 2684354560
+Prefetching style is 0, bytes is 2684354560
+Prefetching style is 0, bytes is 2684354560
+Runtime: 29780.98 ms
+Test Passed
+
+test       atts       units       median       mean       stddev       min       max       
+
+Note: results marked with (*) had missing values such as
+might occur with a mixture of architectural capabilities.
+[  919.282465] 16746647 pages RAM
+[  919.282465] 0 pages HighMem/MovableOnly
+[  919.282465] 295094 pages reserved
+[  919.282465] 0 pages cma reserved
+[  919.282466] 0 pages hwpoisoned
+[ 3124.932730] kauditd_printk_skb: 29 callbacks suppressed
+[ 3124.932732] audit: type=1400 audit(1637128830.303:40): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=5192 comm="cups-browsed" capability=23  capname="sys_nice"
+[ 4668.233017] rfkill: input handler enabled
+[ 4672.940978] TeamViewer[1828]: segfault at 8 ip 00007f30382a17a5 sp 00007ffc0dd51ac0 error 4 in libQt5XcbQpa.so.5[7f3038265000+ed000]
+[ 4672.940983] Code: 74 09 48 8b 7f 20 e9 ba b2 ff ff c3 90 53 48 89 fb 48 8b 7f 20 e8 9b 9b ff ff 48 8b 7b 20 31 d2 89 c6 e8 ee b9 ff ff 48 89 c7 <8b> 58 08 e8 93 88 ff ff 89 d8 5b c3 90 48 83 ec 08 e8 0f ff ff ff
