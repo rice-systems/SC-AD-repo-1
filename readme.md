@@ -1,4 +1,4 @@
-This repo contains three benchmarks used to examine UvmDiscard/UvmDiscardLazy with Nvidia's UVM driver.
+This repo contains four benchmarks used to evaluate UvmDiscard/UvmDiscardLazy with Nvidia's UVM driver.
 These benchmarks have been changed to use unified virtual memory with the CUDA API cudaMallocManaged.
 They are also optimized with prefetch APIs. We also tried to overlap the computation with memory transfers.
 
